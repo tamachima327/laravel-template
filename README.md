@@ -26,7 +26,7 @@ git clone {上で作成したリモートリポジトリのSSHアドレス(Code�
 ```
 
 ```
-mv laravel-template/* {上で作成したリモートリポジトリ名}
+mv laravel-template/* laravel-template/.[^\.]* {上で作成したリモートリポジトリ名}
 ```
 
 ```
