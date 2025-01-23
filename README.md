@@ -17,7 +17,7 @@
 git clone git@github.com:tamachima327/laravel-template.git
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
+-   [ ] 上記のコマンドは完了しました
 
 ```
 yes | rm -r laravel-template/.git
