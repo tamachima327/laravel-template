@@ -40,7 +40,13 @@ docker compose up -d --build
 -   env ファイルの作成をするため、以下を実行
 
 ```
-cp src/.env.example .env
+cp src/.env.example src/.env
+```
+
+-   php にコンテナに入るため、以下を実行
+
+```
+docker compose exec php bash
 ```
 
 -   composer パッケージをインストールするため、以下を実行
