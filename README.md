@@ -17,43 +17,29 @@
 git clone git@github.com:tamachima327/laravel-template.git
 ```
 
--   [ ] 上記のコマンドは完了しました
-
 ```
 yes | rm -r laravel-template/.git
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 ```
 git clone {上で作成したリモートリポジトリのSSHアドレス(Codeからコピー)}
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 ```
 mv laravel-template/* laravel-template/.[^\.]* {上で作成したリモートリポジトリ名}
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 ```
 rm -r laravel-template
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 ```
 cd {上で作成したリモートリポジトリ名}
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 ```
 code .
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 ## 環境構築手順
 
@@ -63,15 +49,11 @@ code .
 docker compose up -d --build
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 -   env ファイルの作成をするため、以下を実行
 
 ```
 cp src/.env.example src/.env
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 -   php にコンテナに入るため、以下を実行
 
@@ -79,15 +61,11 @@ cp src/.env.example src/.env
 docker compose exec php bash
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 -   composer パッケージをインストールするため、以下を実行
 
 ```
 composer install
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 -   アプリケーションキーを作成するため、以下を実行
 
@@ -95,15 +73,11 @@ composer install
 php artisan key:generate
 ```
 
-<input type="checkbox">上記のコマンドは完了しました
-
 -   マイグレーションを実行するため、以下を実行
 
 ```
 php artisan migrate
 ```
-
-<input type="checkbox">上記のコマンドは完了しました
 
 ## 環境構築手順が終わった後にやること
 
