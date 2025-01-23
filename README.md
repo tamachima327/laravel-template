@@ -26,9 +26,6 @@ $ git remote set-url origin {上で作成したリモートリポジトリのSSH
 $ git remote -v
 ```
 
--   以下の環境構築手順で動くことを確認したら commit/push して環境構築完了
-    コミットメッセージは"First commit"
-
 ## 環境構築手順
 
 -   コンテナを立ち上げるため、以下を実行
@@ -66,6 +63,11 @@ php artisan key:generate
 ```
 php artisan migrate
 ```
+
+## 環境構築手順が終わった後にやること
+
+-   環境構築手順で動くことを確認したら commit/push して環境構築完了  
+    コミットメッセージは"First commit"
 
 ## 開発でやる必要があること(この手順はアプリ完成時には README から削除する)
 
