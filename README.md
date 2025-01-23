@@ -16,6 +16,10 @@
     ※間違えて大事なファイルを削除しないようにだけ気をつけてください...  
     ※怖かったらこれはやらなくて OK
 
+-   このリポジトリは amd 版です(Windows/IntelCPU の Mac 向け)
+    arm 版はこちら
+    https://github.com/tamachima327/laravel-template-arm
+
 ## Git リポジトリの準備手順(この手順はアプリ完成時には README から削除する)
 
 -   リモートリポジトリの作成  
