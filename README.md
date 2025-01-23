@@ -95,7 +95,7 @@ php artisan key:generate
 php artisan migrate
 ```
 
-## 環境構築手順が終わった後にやること
+## 環境構築手順が終わった後にやること(この手順はアプリ完成時には README から削除する)
 
 -   ブラウザで動作チェック  
     localhost にアクセスして動作確認  
