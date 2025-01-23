@@ -81,6 +81,10 @@ php artisan migrate
 
 ## 環境構築手順が終わった後にやること
 
+-   ブラウザで動作チェック  
+    localhost にアクセスして動作確認  
+    localhost:8080 にアクセスして phpmyadmin が見れるか確認
+
 -   環境構築手順で動くことを確認したら commit/push して環境構築完了  
     コミットメッセージは"First commit"
 
