@@ -17,6 +17,8 @@
 git clone git@github.com:tamachima327/laravel-template.git
 ```
 
+[ ] 上記コマンドを完了しました
+
 ```
 yes | rm -r laravel-template/.git
 ```
