@@ -15,10 +15,25 @@
 
 ```
 git clone git@github.com:tamachima327/laravel-template.git
+```
+
+```
 rm -r laravel-template/.git
+```
+
+```
 git clone {上で作成したリモートリポジトリのSSHアドレス(Codeからコピー)}
+```
+
+```
 mv laravel-template/* {上で作成したリモートリポジトリ名}
+```
+
+```
 rm -r laravel-template
+```
+
+```
 cd {上で作成したリモートリポジトリ名}
 ```
 
