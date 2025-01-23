@@ -18,7 +18,7 @@ git clone git@github.com:tamachima327/laravel-template.git
 ```
 
 ```
-rm -r laravel-template/.git
+yes | rm -r laravel-template/.git
 ```
 
 ```
