@@ -17,6 +17,7 @@ services:
 
   mysql:
     image: mysql:8.0.26
+    user: "1000:1000"
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: laravel_db
