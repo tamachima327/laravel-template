@@ -11,19 +11,15 @@
     現在いるディレクトリを作業ディレクトリに移動してから行う  
     ※こだわりが無ければ coachtech ディレクトリに移動してから下記コマンドを行う
 
--   クローンして名前変更する
+-   2 つのリポジトリをクローンしてファイル移動する
 
 ```
 git clone git@github.com:tamachima327/laravel-template.git
-mv laravel-template {上で作成したリモートリポジトリ名}
-```
-
--   リモートリポジトリの紐づけを変更する
-
-```
-$ cd {上で作成したリモートリポジトリ名}
-$ git remote set-url origin {上で作成したリモートリポジトリのSSHアドレス(Codeからコピー)}
-$ git remote -v
+rm -r laravel-template/.git
+git clone {上で作成したリモートリポジトリのSSHアドレス(Codeからコピー)}
+mv laravel-template/* {上で作成したリモートリポジトリ名}
+rm -r laravel-template
+cd {上で作成したリモートリポジトリ名}
 ```
 
 ## 環境構築手順
